@@ -1,4 +1,4 @@
-# project-mini
+# project-portfolio
 
 ## Build Setup
 
