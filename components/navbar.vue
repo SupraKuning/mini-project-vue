@@ -9,7 +9,7 @@
             <img src="/logo gav.png" class="mr-3 h-6 sm:h-9" alt="Logo gav" />
           </div>
 
-          <ul class="pr-12 xl:flex items-center h-full m-auto text-center hidden">
+          <ul class="pr-12 xl:flex items-center h-full m-auto text-center hidden custom">
             <li
               class="hover:text-gray-400 cursor-pointer h-full flex items-center text-sm text-white tracking-normal"
             >
@@ -104,7 +104,7 @@
                       >name@flowbite.com</span
                     >
                   </div>
-                  <ul class="py-1" aria-labelledby="dropdown">
+                  <ul class="py-1 list-none" aria-labelledby="dropdown">
                     <li>
                       <a
                         href="#"
@@ -175,14 +175,14 @@
 
         <div class="visible xl:hidden flex items-center">
           <ul
-            class="z-40 p-2 border-r absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden" style="background: hsla(0, 0%, 40%, 0.55); backdrop-filter: blur(30px); z-index: 2"
+            class="z-40 p-2 border-r absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden list-none" style="background: hsla(0, 0%, 40%, 0.55); backdrop-filter: blur(30px); z-index: 2"
           >
             <li
               class="flex xl:hidden cursor-pointer text-white text-base leading-3 tracking-normal mt-2 py-3 hover:text-grey-400 focus:text-grey-400 focus:outline-none"
             >
-              <div class="flex items-center">
+              <NuxtLink to="/">
                 <span class="leading-6 ml-2 font-bold">Home </span>
-              </div>
+              </NuxtLink>
             </li>
             <li
               class="xl:hidden cursor-pointer text-gray-400 text-base leading-3 tracking-normal py-3 hover:text-white flex items-center focus:text-indigo-700 focus:outline-none"
@@ -274,3 +274,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+ul li::before {
+    content: "";
+    color: white;
+}
+</style>

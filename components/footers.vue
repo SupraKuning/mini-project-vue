@@ -71,7 +71,7 @@
             </button>
         </a>
     </div>
-    <span class="block text-lg text-white text-center"
+    <span class="block text-sm text-white text-center font-bold"
       >© Copyright 2022 | Made With Love "Gavriel Ijlal"
     </span>
   </footer>

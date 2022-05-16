@@ -8,11 +8,11 @@
         <div class="container mx-auto">
           <div class="grid lg:grid-cols-2 gap-12 flex items-center">
             <div class="mt-12 lg:mt-0">
-              <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+              <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-10"
                 style="color: hsl(218, 81%, 95%)">
                 Welcome to My Gallery <br />
-                <span style="color: hsl(218, 81%, 75%)">Enjoy my portfolio</span>
               </h1>
+                <span class="mt-10 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">  Enjoy my portfolio  </span>
             </div>
             <div class="mb-12 lg:mb-0">
               <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"

@@ -274,3 +274,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+ul li::before {
+    content: "";
+    color: white;
+}
+</style>

@@ -1,8 +1,8 @@
 <template>
     <div class="background-all">
         <navbar2 />
-        <jumbotron3 />
-        <snapshot/>
+        <jumbotron4 />
+        <snapshot2/>
         <footers/>
     </div>
 
@@ -10,13 +10,13 @@
 
 <script>
 import navbar2 from '~/components/navbar2.vue'
-import jumbotron3 from '~/components/jumbotron3.vue'
-import snapshot from '~/components/snapshot.vue'
+import jumbotron4 from '~/components/jumbotron4.vue'
+import snapshot2 from '~/components/snapshot2.vue'
 import footers from '~/components/footers.vue'
 
 export default {
   name: "IndexPage",
-  components: { navbar2, jumbotron3, snapshot, footers}
+  components: { navbar2, jumbotron4, snapshot2, footers}
 }
 
 </script>

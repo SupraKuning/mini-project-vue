@@ -24,18 +24,18 @@
             class="relative block rounded-lg shadow-2xl px-6 py-12 md:px-12 lg:-mr-14"
            
           >
-            <h2 class="text-3xl text-white font-bold mb-4 display-5">Hello, i'm Gavriel</h2>
-            <p class="text-white">
+            <h2 class="text-5xl text-white font-black mb-5 display-5">Hello, i'm Gavriel</h2>
+            <p class="text-white font-semibold mt-7 mb-2">
                 Graphic Designer, UI/UX Designer & Video Editor
             </p>
-            <br>
-            <p class="mb-12 text-white">
+            <p class="mb-10 text-white font-extralight">
              I am an Informatics student at the University of Jember who is interested in the multimedia field, especially in the fields of design, photo editing and video editing. I am hardworking, responsible and able to work in a team
             </p>
-
+            <a href="mailto:gavriel.ifl@gmail.com" target="_blank">
+            </a>
             <div class="grid md:grid-cols-2 gap-x-6">
-              <button type="button" class="rounded-lg text-white py-3 mb-5 md:mb-0" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">Contact me!</button>
-              <button type="button" class="text-white py-3 grounded-radiants">Download CV</button>
+              <button type="button" class="rounded-lg text-white py-3 mb-5 md:mb-0 font-semibold" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">Contact me!</button>
+              <button type="button" class="text-white py-3 grounded-radiants font-semibold">Download CV</button>
             </div>
           </div>
         </div>
