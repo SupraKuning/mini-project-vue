@@ -11,14 +11,14 @@
 
           <ul class="pr-12 xl:flex items-center h-full m-auto text-center hidden">
             <li
-              class="hover:text-gray-400 cursor-pointer h-full flex items-center text-sm text-white tracking-normal"
+              class="hover:text-white cursor-pointer h-full flex items-center text-sm text-gray-400 tracking-normal"
             >
               <NuxtLink to="/">
                 Home
               </NuxtLink>
             </li>
             <li
-              class="hover:text-white cursor-pointer h-full flex items-center text-sm text-gray-400 mx-10 tracking-normal"
+              class="hover:text-gray-400 cursor-pointer h-full flex items-center text-sm text-white mx-10 tracking-normal"
             >
               <NuxtLink to="/portfolioPage">
                Portfolio
@@ -178,14 +178,14 @@
             class="z-40 p-2 border-r absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden" style="background: hsla(0, 0%, 40%, 0.55); backdrop-filter: blur(30px); z-index: 2"
           >
             <li
-              class="flex xl:hidden cursor-pointer text-white text-base leading-3 tracking-normal mt-2 py-3 hover:text-grey-400 focus:text-grey-400 focus:outline-none"
+              class="flex xl:hidden cursor-pointer text-white  text-base leading-3 tracking-normal mt-2 py-3 hover:text-grey-400 focus:text-grey-400 focus:outline-none"
             >
               <div class="flex items-center">
                 <span class="leading-6 ml-2 font-bold">Home </span>
               </div>
             </li>
             <li
-              class="xl:hidden cursor-pointer text-gray-400 text-base leading-3 tracking-normal py-3 hover:text-white flex items-center focus:text-indigo-700 focus:outline-none"
+              class="xl:hidden cursor-pointer text-gray-500   text-base leading-3 tracking-normal py-3 hover:text-white flex items-center focus:text-indigo-700 focus:outline-none"
             >
               <NuxtLink to="/portfolioPage">
                 <span class="leading-6 ml-2 font-bold">Portfolio</span>

@@ -1,0 +1,31 @@
+<template>
+      <div class="container my-24 px-6 mx-auto">
+
+    <!-- Section: Design Block -->
+ 
+
+      <div class="px-6 py-12 md:px-12 text-center lg:text-left rounded-lg shadow-2xl ">
+        <div class="container mx-auto">
+          <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+            <div class="mt-12 lg:mt-0">
+              <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                style="color: hsl(218, 81%, 95%)">
+                Welcome to My Gallery <br />
+                <span style="color: hsl(218, 81%, 75%)">Enjoy my portfolio</span>
+              </h1>
+            </div>
+            <div class="mb-12 lg:mb-0">
+              <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
+                style="padding-top: 56.25%"> 
+                <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/SVGnFhv9qxo"
+                  allowfullscreen="" data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <!-- Container for demo purpose -->
+</template>
