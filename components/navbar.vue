@@ -5,9 +5,11 @@
         class="container px-6 py-10 justify-between h-16 flex items-center lg:items-stretch mx-auto"
       >
         <div class="h-full w-full flex items-center">
-          <div class="mr-10 flex items-center">
-            <img src="/logo gav.png" class="mr-3 h-6 sm:h-9" alt="Logo gav" />
-          </div>
+          <a href="/">
+            <div class="mr-10 flex items-center">
+              <img src="/logo gav.png" class="mr-3 h-6 sm:h-9" alt="Logo gav" />
+            </div>
+          </a>
 
           <ul class="pr-12 xl:flex items-center h-full m-auto text-center hidden custom">
             <li

@@ -5,9 +5,11 @@
         class="container px-6 py-10 justify-between h-16 flex items-center lg:items-stretch mx-auto"
       >
         <div class="h-full w-full flex items-center">
-          <div class="mr-10 flex items-center">
-            <img src="/logo gav.png" class="mr-3 h-6 sm:h-9" alt="Logo gav" />
-          </div>
+          <a href="/">
+            <div class="mr-10 flex items-center">
+              <img src="/logo gav.png" class="mr-3 h-6 sm:h-9" alt="Logo gav" />
+            </div>
+          </a>
 
           <ul class="pr-12 xl:flex items-center h-full m-auto text-center hidden">
             <li
@@ -180,9 +182,9 @@
             <li
               class="flex xl:hidden cursor-pointer text-white  text-base leading-3 tracking-normal mt-2 py-3 hover:text-grey-400 focus:text-grey-400 focus:outline-none"
             >
-              <div class="flex items-center">
+              <NuxtLink to="/">
                 <span class="leading-6 ml-2 font-bold">Home </span>
-              </div>
+              </NuxtLink>
             </li>
             <li
               class="xl:hidden cursor-pointer text-gray-500   text-base leading-3 tracking-normal py-3 hover:text-white flex items-center focus:text-indigo-700 focus:outline-none"

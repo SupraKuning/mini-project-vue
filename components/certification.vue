@@ -1,5 +1,5 @@
 <template>
-  <div class="container m-auto py-10 px-36">
+  <div class="container m-auto py-10 px-20 md:px-36">
     <h2 class="pt-10 text-4xl text-white font-bold mb-10 display-5 text-center">
       Certification
     </h2>
@@ -46,9 +46,9 @@ export default {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1,
             },
           },
           {

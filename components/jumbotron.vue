@@ -31,11 +31,13 @@
             <p class="mb-10 text-white font-extralight">
              I am an Informatics student at the University of Jember who is interested in the multimedia field, especially in the fields of design, photo editing and video editing. I am hardworking, responsible and able to work in a team
             </p>
-            <a href="mailto:gavriel.ifl@gmail.com" target="_blank">
-            </a>
             <div class="grid md:grid-cols-2 gap-x-6">
-              <button type="button" class="rounded-lg text-white py-3 mb-5 md:mb-0 font-semibold" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">Contact me!</button>
-              <button type="button" class="text-white py-3 grounded-radiants font-semibold">Download CV</button>
+              <a href="mailto:gavriel.ifl@gmail.com" target="_blank"  class="rounded-lg text-white text-center py-3 mb-5 md:mb-0 font-semibold" style="background-image: linear-gradient(to right, #D6009A , #B800D6)"> 
+                <button type="button" >Contact me!</button>
+              </a>
+              <a href="https://www.canva.com/design/DAEjtR8gUmk/E7BKw02RlN3U836VkT7zwQ/view?utm_content=DAEjtR8gUmk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
+                <button type="button" class="w-full h-full text-white py-3 grounded-radiants font-semibold">Download CV</button>
+              </a>
             </div>
           </div>
         </div>
