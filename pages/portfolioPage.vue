@@ -34,6 +34,11 @@ export default {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+
 .background-all{
   background-image: url('/bg.png');
   background-size: 100%;
