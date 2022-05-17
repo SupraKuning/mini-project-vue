@@ -20,7 +20,7 @@
         </NuxtLink>
       </div>
       <div class="container mx-auto xl:px-32 text-center lg:text-left grid lg:grid-cols-3" >
-        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up-right">
+        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up">
           <NuxtLink to="/detail">
             <img class="rounded-t-lg p-5 m-auto" src="/Group 49.svg" alt="" />
             <div class="p-5">
@@ -51,7 +51,7 @@
         </div>
 
         <div
-          class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up-left"
+          class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up"
         >
           <a href="#">
             <img class="rounded-t-lg p-5 m-auto" src="/Group 51.svg" alt="" />
