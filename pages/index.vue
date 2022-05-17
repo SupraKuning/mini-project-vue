@@ -9,9 +9,13 @@
     <footers />
   </div>
 
+
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import navbar from '~/components/navbar.vue'
 import jumbotron from '~/components/jumbotron.vue'
 import experience from '~/components/experience.vue'
@@ -21,6 +25,9 @@ import card from '~/components/card.vue'
 import footers from '~/components/footers.vue'
 
 export default {
+  mounted() {
+    AOS.init({ })
+  },
   name: "IndexPage",
   components: { navbar, jumbotron, experience, skill, certification, card, footers }
 }

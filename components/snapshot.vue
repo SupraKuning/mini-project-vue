@@ -1,13 +1,13 @@
 <template>
   <div class="container m-auto py-5 px-10">
-    <h2 class="pt-10 text-4xl text-white font-bold mb-10 display-5">
+    <h2 class="pt-10 text-4xl text-white font-bold mb-10 display-5" data-aos="fade-down">
       Snapshot.
     </h2>
     <!-- <VueSlickCarousel class="pb-10" :arrows="true" :dots="true" :autoplay="true" :speed="1000" :autoplaySpeed="2000" :slidesToShow="3"> -->
     <VueSlickCarousel class="pb-10" v-bind="settings">
-      <img class="p-5 m-auto" src="/deb1.jpeg" alt="" />
-      <img class="p-5 m-auto" src="/deb2.jpeg" alt="" />
-      <img class="p-5 m-auto" src="/deb3.jpeg" alt="" />
+      <img class="p-5 m-auto" data-aos="fade-down" src="/deb1.jpeg" alt="" />
+      <img class="p-5 m-auto" data-aos="fade-down" src="/deb2.jpeg" alt="" />
+      <img class="p-5 m-auto" data-aos="fade-down" src="/deb3.jpeg" alt="" />
     </VueSlickCarousel>
   </div>
 </template>

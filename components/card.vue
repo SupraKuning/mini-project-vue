@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtLink to="/portfolioPage">
-      <h2 class="pt-10 text-4xl text-white font-bold mb-8 display-5 text-center">
+      <h2 class="pt-10 text-4xl text-white font-bold mb-8 display-5 text-center" data-aos="fade-down">
         Some of my works
       </h2>
     </NuxtLink>
@@ -20,7 +20,7 @@
         </NuxtLink>
       </div>
       <div class="container mx-auto xl:px-32 text-center lg:text-left grid lg:grid-cols-3" >
-        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" >
+        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up-right">
           <NuxtLink to="/detail">
             <img class="rounded-t-lg p-5 m-auto" src="/Group 49.svg" alt="" />
             <div class="p-5">
@@ -34,7 +34,7 @@
           </NuxtLink>
         </div>
 
-        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" >
+        <div class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up">
           <NuxtLink to="/detail2">
             <img class="rounded-t-lg p-5 m-auto" src="/Group 50.svg" alt="" />
             <div class="p-5">
@@ -51,7 +51,7 @@
         </div>
 
         <div
-          class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105"
+          class="relative block rounded-lg shadow-2xl m-5 transform transition duration-200 hover:scale-105" data-aos="fade-up-left"
         >
           <a href="#">
             <img class="rounded-t-lg p-5 m-auto" src="/Group 51.svg" alt="" />

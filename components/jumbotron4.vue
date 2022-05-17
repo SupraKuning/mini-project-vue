@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-10 px-6 mx-auto">
+    <div class="container my-10 px-6 mx-auto" data-aos="fade-right">
         <div class="px-6 py-12 md:px-12 text-center lg:text-left rounded-lg shadow-2xl ">
             <div class="container mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 flex items-center">

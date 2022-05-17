@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h2 class="text-4xl text-white font-bold mb-10 display-5 text-center">Summary and Experience</h2>
-        <div class="container m-auto xl:px-32 text-left grid lg:grid-cols-3">
+    <div id="experiencess">
+        <h2 class="text-4xl text-white font-bold mb-10 display-5 text-center" data-aos="fade-down">Summary and Experience</h2>
+        <div class="container m-auto xl:px-32 text-left grid lg:grid-cols-3" data-aos="fade-up">
             <div class="md:p-1 p-2">
                 <ol class="relative border-l ml-4">                  
                     <li class="mb-10 ml-6">            

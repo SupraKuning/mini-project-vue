@@ -1,5 +1,5 @@
 <template>
-      <div class="container my-24 px-6 mx-auto">
+      <div class="container my-24 px-6 mx-auto" data-aos="fade-right">
 
     <!-- Section: Design Block -->
  
@@ -12,7 +12,7 @@
                 style="color: hsl(218, 81%, 95%)">
                 Welcome to My Gallery <br />
               </h1>
-                <span class="mt-10 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">  Enjoy my portfolio  </span>
+                <span class="mt-10 px-5 py-2 text-5xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-12 text-white" style="background-image: linear-gradient(to right, #D6009A , #B800D6)">  Enjoy it!  </span>
             </div>
             <div class="mb-12 lg:mb-0">
               <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"

@@ -9,12 +9,18 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import navbar2 from '~/components/navbar2.vue'
 import jumbotron4 from '~/components/jumbotron4.vue'
 import snapshot2 from '~/components/snapshot2.vue'
 import footers from '~/components/footers.vue'
 
 export default {
+    mounted() {
+    AOS.init({ })
+  },
   name: "IndexPage",
   components: { navbar2, jumbotron4, snapshot2, footers}
 }
